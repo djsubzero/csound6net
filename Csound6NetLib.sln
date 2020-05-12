@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csound6Net", "Csound6Net\Csound6Net.csproj", "{F7171D0F-ACA9-4688-A71D-279F03EB9A19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csound6NetRuntime", "Csound6NetRuntime\Csound6NetRuntime.csproj", "{DE232F63-2C7E-429E-8EC4-FB7F76EFC6B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31647B4C-829D-42DC-9118-DEC8DB04BF61} = {31647B4C-829D-42DC-9118-DEC8DB04BF61}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csoundAPI_Examples", "csoundAPI_Examples\csoundAPI_Examples.csproj", "{0EE3CFC1-36A2-4FD9-AAB9-09C21DB84DE6}"
 	ProjectSection(ProjectDependencies) = postProject
