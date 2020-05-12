@@ -1,0 +1,7 @@
+C:\Source\CsoundNetLib\CsoundNetLib\bin\Debug\Csound6NetLib.dll
+C:\Source\CsoundNetLib\CsoundNetLib\bin\Debug\Csound6NetLib.pdb
+C:\Source\CsoundNetLib\CsoundNetLib\obj\Debug\Csound6NetLib.csprojAssemblyReference.cache
+C:\Source\CsoundNetLib\CsoundNetLib\obj\Debug\csound6netlib.Resources.resources
+C:\Source\CsoundNetLib\CsoundNetLib\obj\Debug\Csound6NetLib.csproj.GenerateResource.cache
+C:\Source\CsoundNetLib\CsoundNetLib\obj\Debug\Csound6NetLib.dll
+C:\Source\CsoundNetLib\CsoundNetLib\obj\Debug\Csound6NetLib.pdb
