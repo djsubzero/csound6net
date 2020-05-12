@@ -1,0 +1,12 @@
+.vs/
+Csound6Net/bin/
+Csound6Net/obj/
+Csound6NetRuntime/bin/
+Csound6NetRuntime/obj/
+csoundAPI_Examples/bin/
+csoundAPI_Examples/obj/
+CsoundNetLib/bin/
+CsoundNetLib/obj/
+TestCsoundNetLib/bin/
+TestCsoundNetLib/obj/
+*.user

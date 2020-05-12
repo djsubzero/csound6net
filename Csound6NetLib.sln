@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csound6NetLib", "CsoundNetLib\Csound6NetLib.csproj", "{31647B4C-829D-42DC-9118-DEC8DB04BF61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCsound6NetLib", "TestCsoundNetLib\TestCsound6NetLib.csproj", "{80175EC9-C237-4A75-AC59-AAE19C1993A4}"
@@ -10,29 +12,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csound6NetRuntime", "Csound6NetRuntime\Csound6NetRuntime.csproj", "{DE232F63-2C7E-429E-8EC4-FB7F76EFC6B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csoundAPI_Examples", "csoundAPI_Examples\csoundAPI_Examples.csproj", "{0EE3CFC1-36A2-4FD9-AAB9-09C21DB84DE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31647B4C-829D-42DC-9118-DEC8DB04BF61} = {31647B4C-829D-42DC-9118-DEC8DB04BF61}
+	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs11
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = CsoundNetLib\\Csound6NetLib.csproj
-		SccProjectName1 = CsoundNetLib
-		SccLocalPath1 = CsoundNetLib
-		SccProjectUniqueName2 = TestCsoundNetLib\\TestCsound6NetLib.csproj
-		SccProjectName2 = TestCsoundNetLib
-		SccLocalPath2 = TestCsoundNetLib
-		SccProjectUniqueName3 = Csound6Net\\Csound6Net.csproj
-		SccProjectName3 = Csound6Net
-		SccLocalPath3 = Csound6Net
-		SccProjectUniqueName4 = Csound6NetRuntime\\Csound6NetRuntime.csproj
-		SccProjectName4 = Csound6NetRuntime
-		SccLocalPath4 = Csound6NetRuntime
-		SccProjectUniqueName5 = csoundAPI_Examples\\csoundAPI_Examples.csproj
-		SccProjectName5 = csoundAPI_Examples
-		SccLocalPath5 = csoundAPI_Examples
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
 		CD_ROM|Mixed Platforms = CD_ROM|Mixed Platforms
@@ -179,5 +163,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F38F4ACA-51EF-4869-8BBC-92E5EC8CCC0C}
 	EndGlobalSection
 EndGlobal
